@@ -3,7 +3,6 @@
 Depends on the installation and configuration of the [HTTP webhook SPI provider for Keycloak](https://github.com/svenstaro/keycloak-http-webhook-provider). It will send webhooks to the Lambda function in this module.
 
 * A Lambda function to handle the events, format them and send to Discord.
-* An API gateway (?)
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
