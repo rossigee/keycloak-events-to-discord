@@ -1,20 +1,38 @@
 {
-  "id": "cafcb562-83b8-41ee-be73-52d3d1ee897b",
-  "time": 1640669943193,
-  "type": "LOGIN",
-  "realmId": "rossgolderltd",
-  "clientId": "odoo",
-  "userId": "430bca5d-6b07-45e6-86a1-c72b28dbba1f",
-  "sessionId": "21f0cc48-9f86-480b-bce1-79aab92e6207",
-  "ipAddress": "1.10.226.155",
-  "error": null,
-  "details": {
-    "auth_method": "openid-connect",
-    "auth_type": "code",
-    "redirect_uri": "https://odoo.golder.tech/auth_oauth/signin",
-    "remember_me": "true",
-    "consent": "no_consent_required",
-    "code_id": "21f0cc48-9f86-480b-bce1-79aab92e6207",
-    "username": "ross@golder.org"
-  }
+    "version": "2.0",
+    "routeKey": "POST /keycloak",
+    "rawPath": "/keycloak",
+    "rawQueryString": "",
+    "headers": {
+        "accept-encoding": "gzip",
+        "authorization": "Basic a2V5Y2xvYWs6a2V5Y2xvYWs=",
+        "content-length": "509",
+        "content-type": "application/json; charset=utf-8",
+        "host": "czwrvanma0.execute-api.ap-southeast-1.amazonaws.com",
+        "user-agent": "Keycloak Webhook",
+        "x-amzn-trace-id": "Root=1-61cab971-3ae349f84a905f804bb99775",
+        "x-forwarded-for": "13.229.202.78",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+        "accountId": "669783170862",
+        "apiId": "czwrvanma0",
+        "domainName": "czwrvanma0.execute-api.ap-southeast-1.amazonaws.com",
+        "domainPrefix": "czwrvanma0",
+        "http": {
+            "method": "POST",
+            "path": "/keycloak",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "13.229.202.78",
+            "userAgent": "Keycloak Webhook"
+        },
+        "requestId": "LDHpsgmLyQ0EMkg=",
+        "routeKey": "POST /keycloak",
+        "stage": "$default",
+        "time": "28/Dec/2021:07:14:57 +0000",
+        "timeEpoch": 1640675697024
+    },
+    "body": "{\"id\":\"cf2ada51-1d2b-4089-88fa-47b37f2103de\",\"time\":1640675696711,\"type\":\"LOGIN\",\"realmId\":\"Family\",\"clientId\":\"odoo\",\"userId\":\"2850c8b1-d848-4d62-a994-e9150051789b\",\"sessionId\":\"12109b33-eef8-4458-962c-3812e83fe6a1\",\"ipAddress\":\"1.10.226.155\",\"error\":null,\"details\":{\"auth_method\":\"openid-connect\",\"auth_type\":\"code\",\"redirect_uri\":\"https://odoo.golder.org/auth_oauth/signin\",\"remember_me\":\"true\",\"consent\":\"no_consent_required\",\"code_id\":\"12109b33-eef8-4458-962c-3812e83fe6a1\",\"username\":\"ross@golder.org\"}}",
+    "isBase64Encoded": false
 }

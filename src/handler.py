@@ -76,7 +76,7 @@ def notify_via_discord(content):
 def lambda_handler(event, context):
     logger.info(json.dumps(event))
 
-    discord_content = parse_event(event)
+    discord_content = parse_event(json.loads(event['body']))
     logger.info(json.dumps(discord_content))
     if discord_content is not None:
         notify_via_discord(discord_content)
