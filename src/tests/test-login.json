@@ -1,0 +1,20 @@
+{
+  "id": "cafcb562-83b8-41ee-be73-52d3d1ee897b",
+  "time": 1640669943193,
+  "type": "LOGIN",
+  "realmId": "rossgolderltd",
+  "clientId": "odoo",
+  "userId": "430bca5d-6b07-45e6-86a1-c72b28dbba1f",
+  "sessionId": "21f0cc48-9f86-480b-bce1-79aab92e6207",
+  "ipAddress": "1.10.226.155",
+  "error": null,
+  "details": {
+    "auth_method": "openid-connect",
+    "auth_type": "code",
+    "redirect_uri": "https://odoo.golder.tech/auth_oauth/signin",
+    "remember_me": "true",
+    "consent": "no_consent_required",
+    "code_id": "21f0cc48-9f86-480b-bce1-79aab92e6207",
+    "username": "ross@golder.org"
+  }
+}
